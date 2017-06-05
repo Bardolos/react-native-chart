@@ -40,7 +40,7 @@ export default class YAxis extends Component<void, any, any> {
 
 	// Credits:  Martin Sznapka, StackOverflow, QuestionID: 9461621
 	shortenLargeNumber(num, useDecimal) {
-		let digits = (useDecimal) ? 2 : 0;
+		let digits = (useDecimal) ? 1 : 0;
 		var units = ['K', 'M', 'B', 't', 'P', 'E', 'Z', 'Y'],
 				decimal;
 		for (var i=units.length-1; i>=0; i--) {
